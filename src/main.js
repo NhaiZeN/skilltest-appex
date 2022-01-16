@@ -1,4 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import PageContainer from "./components/PageContainer.vue";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.component("page-container", PageContainer);
+
+app.mount("#app");

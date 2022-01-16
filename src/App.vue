@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <page-container></page-container>
+  <div class="fixed-bottom text-center text-white py-3">
+    Appex Skilltest 2022 - Nhien Phung
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import PageContainer from "./components/PageContainer.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    PageContainer,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+body {
+  background-color: #edece9;
+}
+.fixed-bottom {
+  background-color: #221e20;
 }
 </style>
