@@ -129,12 +129,12 @@
         v-model="additionalInfo"
       ></textarea>
     </div>
-    <button type="submit" class="btn btn-primary mt-5 float-end">
+    <button type="submit" class="btn btn-primary my-5 float-end">
       Legg til
     </button>
     <button
       type="button"
-      class="btn btn-primary mt-5 me-3 float-end"
+      class="btn btn-primary my-5 me-3 float-end"
       @click="showCompanyDetails"
     >
       Lukk

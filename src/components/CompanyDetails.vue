@@ -99,7 +99,7 @@
               </textarea>
               <button
                 type="button"
-                class="btn btn-primary float-end mt-3"
+                class="btn btn-primary float-end my-5"
                 @click="editCompanyInfo"
               >
                 Lagre endringer
